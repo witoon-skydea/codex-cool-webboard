@@ -1,0 +1,14 @@
+{
+  "name": "codex-cool-webboard",
+  "version": "1.0.0",
+  "description": "pure pastel color web board for user can participate (dev with node.js and SQLite database) with user management (feature : chat, tag, favorite)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
