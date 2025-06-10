@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cool Pastel Web Board</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cool Pastel Web Board</h1>
+    <div id="user-form">
+      <h2>Register / Login</h2>
+      <input id="username" placeholder="Username">
+      <input id="password" type="password" placeholder="Password">
+      <button id="register-btn">Register</button>
+      <button id="login-btn">Login</button>
+      <button id="logout-btn" class="hidden">Logout</button>
+      <span id="current-user"></span>
+    </div>
+    <div id="message-form" class="hidden">
+      <textarea id="content" placeholder="Say something"></textarea>
+      <input id="tag" placeholder="Tag">
+      <button id="send-btn">Send</button>
+    </div>
+    <div id="messages"></div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
