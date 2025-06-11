@@ -1,15 +1,16 @@
 # codex-cool-webboard
 
-A pure pastel color web board built with Node.js and SQLite where users can participate. The project supports user registration/login, posting messages with tags, and favorites functionality with a complete API service.
+A pure pastel color web board built with Node.js and SQLite where users can participate. The project supports user registration/login, posting messages with tags, and favorites functionality with a complete API service and frontend interface.
 
 ## Features
 
-- User management (registration/login)
-- Chat/messaging system
-- Tags and favorites
-- Pure pastel color design
-- SQLite database integration
-- Complete REST API service
+- **Frontend**: Simple pastel-colored web interface that works entirely in the browser
+- **Backend**: Complete REST API service with SQLite database
+- **User management**: Registration/login functionality
+- **Chat/messaging system**: Post messages and comments
+- **Tags and favorites**: Organize and save favorite posts
+- **Pure pastel color design**: Beautiful, modern UI
+- **Data storage**: Both localStorage (frontend) and SQLite database (backend) support
 
 ## Setup
 
@@ -38,4 +39,9 @@ The application will start on port 3000. Visit `http://localhost:3000` to use th
 
 ## Development
 
-The server will run on `http://localhost:3000` by default with both frontend and API services integrated. The database will be created automatically in `database.sqlite` when you run the server for the first time.
+The server will run on `http://localhost:3000` by default with both frontend and API services integrated. The frontend works entirely in the browser and can store posts in `localStorage`, while the backend database will be created automatically in `database.sqlite` when you run the server for the first time.
+
+## Alternative Scripts
+
+- `npm start` - Run the main integrated server
+- `npm run start:api` - Run only the API server (if needed separately)
