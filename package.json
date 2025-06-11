@@ -1,13 +1,14 @@
 {
   "name": "codex-cool-webboard",
   "version": "1.0.0",
-  "description": "Pure pastel color web board for users with chat, tag, favorite using Node.js and SQLite with user management",
+  "description": "Pure pastel color web board for users with chat, tag, favorite using Node.js and SQLite with complete API service",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start:api": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["webboard", "chat", "nodejs", "sqlite", "pastel"],
+  "keywords": ["webboard", "chat", "nodejs", "sqlite", "pastel", "api"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
